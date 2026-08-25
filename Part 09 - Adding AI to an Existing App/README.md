@@ -30,12 +30,13 @@ By the end of this part, you will:
 
 ## The application you are starting with
 
-This part ships two copies of the same solution:
+This part ships three snapshots of the same sample:
 
 | Folder | What it is |
 | --- | --- |
 | `eShopLite-start/` | The store **before** any AI. This is the one you work in. |
 | `eShopLite/` | The finished app with all three steps already done — the answer key. Look here if you get stuck, or run it if you want to see where you are heading. |
+| `StoreApp/` | A consolidated completed snapshot that keeps the same capabilities in a single project for easier comparison. |
 
 Open the starting solution:
 
