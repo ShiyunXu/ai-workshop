@@ -51,7 +51,7 @@ dotnet new aichatweb --provider azureopenai --vector-store qdrant --aspire --nam
 
 ### Alternative: scaffold in Visual Studio 2026
 
-If you prefer Visual Studio instead of the CLI:
+If you prefer Visual Studio 2026 instead of the CLI:
 
 > [!NOTE]
 > If **AI Chat Web App** does not appear in the **Create a new project** dialog, install the template first from a terminal:
@@ -242,10 +242,10 @@ The value is a single string combining the endpoint and key from
 Endpoint=https://YOUR-RESOURCE.openai.azure.com/;Key=YOUR-KEY
 ```
 
-#### Visual Studio
+#### Visual Studio 2026
 
 1. In **Solution Explorer**, right-click the **`GenAiLab.AppHost`** project.
-1. Choose **Manage User Secrets**. Visual Studio creates and opens `secrets.json`.
+1. Choose **Manage User Secrets**. Visual Studio 2026 creates and opens `secrets.json`.
 1. Replace the contents with this, substituting your own endpoint and key:
 
     ```json
@@ -302,7 +302,7 @@ cd GenAiLab
 dotnet run --project GenAiLab.AppHost
 ```
 
-In Visual Studio, set **`GenAiLab.AppHost`** as the startup project and press
+In Visual Studio 2026, set **`GenAiLab.AppHost`** as the startup project and press
 Ctrl+F5.
 
 Aspire launches a **dashboard** (URL printed in the console) showing every service,
@@ -511,7 +511,7 @@ an architecture comparison rather than a description of files in your project.
 dotnet new aichatweb --provider azureopenai --vector-store local --managed-identity false --name GenAiLab --output GenAiLab
 ```
 
-In Visual Studio, choose **Local** for the vector store, leave **Use Aspire
+In Visual Studio 2026, choose **Local** for the vector store, leave **Use Aspire
 orchestration** disabled, and clear **Use managed identity**.
 
 `--managed-identity false` matters. Left at its default the template authenticates
@@ -550,7 +550,7 @@ dotnet user-secrets --project GenAiLab set AzureOpenAI:Endpoint "https://YOUR-RE
 dotnet user-secrets --project GenAiLab set AzureOpenAI:Key "YOUR-KEY"
 ```
 
-In Visual Studio, right-click the **`GenAiLab`** project → **Manage User Secrets**
+In Visual Studio 2026, right-click the **`GenAiLab`** project → **Manage User Secrets**
 and paste:
 
 ```json

@@ -135,7 +135,7 @@ they explain what the fix is defending against.
   deployment-name change, and the connection-string secret — now live in a single **Step 2
   "Configure it before you run it"**, immediately after scaffolding and ahead of the code
   walkthrough (which moved to Step 5, after the app runs). The secret is now documented for
-  **both** Visual Studio's *Manage User Secrets* (with the exact `secrets.json` shape) and
+  **both** Visual Studio 2026's *Manage User Secrets* (with the exact `secrets.json` shape) and
   the CLI, and it states explicitly that the secret belongs to `GenAiLab.AppHost` rather than
   `GenAiLab.Web`. The Docker-free path moved out of Step 1 into its own end-of-part section
   carrying a **complete** configuration of its own, which closes #580: it now shows the

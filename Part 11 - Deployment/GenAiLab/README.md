@@ -18,7 +18,7 @@
 > }
 > ```
 >
-> In Visual Studio, right-click `GenAiLab.AppHost` → **Manage User Secrets**. Run the
+> In Visual Studio 2026, right-click `GenAiLab.AppHost` → **Manage User Secrets**. Run the
 > solution by launching the `GenAiLab.AppHost` project.
 
 This project is an AI chat application that demonstrates how to chat with custom data using an AI language model. Please note that this template is currently in an early preview stage. If you have feedback, please take a [brief survey](https://aka.ms/dotnet-chat-templatePreview2-survey).
@@ -53,9 +53,9 @@ Note: Qdrant and Docker are excellent open source products, but are not maintain
 
 # Running the application
 
-## Using Visual Studio
+## Using Visual Studio 2026
 
-1. Open the `.sln` file in Visual Studio.
+1. Open the `.sln` file in Visual Studio 2026.
 2. Press `Ctrl+F5` or click the "Start" button in the toolbar to run the project.
 
 ## Using Visual Studio Code

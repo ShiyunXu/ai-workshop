@@ -165,7 +165,7 @@ A Model Context Protocol (MCP) server that provides weather information tools fo
 
 - 🌤️ **Current Weather**: Get real-time weather conditions for any city
 - 📅 **Weather Forecast**: 5-day weather predictions with detailed information
-- 🔧 **Easy Integration**: Works with VS Code, Visual Studio, and any MCP-compatible client
+- 🔧 **Easy Integration**: Works with VS Code, Visual Studio 2026, and any MCP-compatible client
 - ⚡ **Fast Response**: Optimized for quick weather data retrieval
 
 ## Installation
@@ -249,7 +249,7 @@ Can you give me a 5-day forecast for London?
 ## Requirements
 
 - .NET 10.0 or higher
-- MCP-compatible client (VS Code with Copilot, Visual Studio, etc.)
+- MCP-compatible client (VS Code with Copilot, Visual Studio 2026, etc.)
 
 ## License
 

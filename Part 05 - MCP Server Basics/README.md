@@ -414,7 +414,7 @@ If you prefer to use **Visual Studio 2026** instead of VS Code, you can configur
 
 ### Configuration Steps
 
-1. **Make sure you have a solution file.** Visual Studio only discovers `.mcp.json`
+1. **Make sure you have a solution file.** Visual Studio 2026 only discovers `.mcp.json`
    relative to a *solution* directory, so opening the bare `.csproj` is not enough.
    From your `MyMcpServer` folder:
 
@@ -449,7 +449,7 @@ If you prefer to use **Visual Studio 2026** instead of VS Code, you can configur
    configuration in a different solution's directory, adjust the path to point at
    `MyMcpServer.csproj` from there.
 
-3. **Open the solution in Visual Studio** (`MyMcpServer.slnx`). Visual Studio reads
+3. **Open the solution in Visual Studio 2026** (`MyMcpServer.slnx`). Visual Studio 2026 reads
    `.mcp.json` from the solution directory on load. Adding the file to the solution
    via **Add > Existing Item** is optional, but makes it easier to find later.
 
@@ -458,11 +458,11 @@ If you prefer to use **Visual Studio 2026** instead of VS Code, you can configur
    - Click the **Ask** dropdown
    - Select **Agent** mode
 
-5. **Restart Visual Studio** to pick up the new MCP configuration
+5. **Restart Visual Studio 2026** to pick up the new MCP configuration
 
 ### Configuration File Locations
 
-Visual Studio checks for MCP configurations in several locations, in this order:
+Visual Studio 2026 checks for MCP configurations in several locations, in this order:
 
 1. `%USERPROFILE%\.mcp.json` - Global configuration for all solutions
 2. `<SOLUTIONDIR>\.vs\mcp.json` - VS-specific, user-specific configuration
@@ -481,7 +481,7 @@ Visual Studio checks for MCP configurations in several locations, in this order:
    ```
 
 4. **Grant tool permissions** when prompted:
-   - Visual Studio will ask for permission to use MCP tools
+   - Visual Studio 2026 will ask for permission to use MCP tools
    - Select **Allow** with your preferred scope (session, solution, or always)
 
 ### Managing Tool Approvals

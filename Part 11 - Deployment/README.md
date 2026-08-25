@@ -25,7 +25,7 @@ So if you started from this snapshot rather than from your own Part 4 output, th
 line is already there and you can skip the next section.
 
 Either way, you supply your own credentials. Set `ConnectionStrings:openai` in user
-secrets on **`GenAiLab.AppHost`** — in Visual Studio, right-click the project and
+secrets on **`GenAiLab.AppHost`** — in Visual Studio 2026, right-click the project and
 choose **Manage User Secrets**:
 
 ```json

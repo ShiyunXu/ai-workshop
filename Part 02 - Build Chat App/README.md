@@ -109,8 +109,8 @@ dotnet user-secrets set "AzureOpenAI:Key" "YOUR-KEY"
 }
 ```
 
-For the full Visual Studio flow, see:
-[Manage user secrets with Visual Studio](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows%2Cpowershell#manage-user-secrets-with-visual-studio).
+For the full Visual Studio 2026 flow, see:
+[Manage user secrets with Visual Studio 2026](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0&tabs=windows%2Cpowershell#manage-user-secrets-with-visual-studio).
 
 ## Step 4: Write the code
 

@@ -198,7 +198,7 @@ dotnet user-secrets init
    Install-Package Microsoft.Extensions.Configuration.UserSecrets
    ```
 
-1. Right-click the project and select **Manage User Secrets**. Visual Studio adds
+1. Right-click the project and select **Manage User Secrets**. Visual Studio 2026 adds
    the `UserSecretsId` to the project file and opens an empty `secrets.json`.
 
 ### Step 2: Configure your credentials

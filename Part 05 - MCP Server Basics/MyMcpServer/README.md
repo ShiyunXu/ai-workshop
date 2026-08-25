@@ -61,12 +61,12 @@ Once configured, you can ask Copilot Chat for a random number, for example, `Giv
 
 ## Using the MCP Server from NuGet.org
 
-Once the MCP server package is published to NuGet.org, you can configure it in your preferred IDE. Both VS Code and Visual Studio use the `dnx` command to download and install the MCP server package from NuGet.org.
+Once the MCP server package is published to NuGet.org, you can configure it in your preferred IDE. Both VS Code and Visual Studio 2026 use the `dnx` command to download and install the MCP server package from NuGet.org.
 
 - **VS Code**: Create a `<WORKSPACE DIRECTORY>/.vscode/mcp.json` file
-- **Visual Studio**: Create a `<SOLUTION DIRECTORY>\.mcp.json` file
+- **Visual Studio 2026**: Create a `<SOLUTION DIRECTORY>\.mcp.json` file
 
-For both VS Code and Visual Studio, the configuration file uses the following server definition:
+For both VS Code and Visual Studio 2026, the configuration file uses the following server definition:
 
 ```json
 {
@@ -93,7 +93,7 @@ For both VS Code and Visual Studio, the configuration file uses the following se
 - [Protocol Specification](https://modelcontextprotocol.io/specification/)
 - [GitHub Organization](https://github.com/modelcontextprotocol)
 
-Refer to the VS Code or Visual Studio documentation for more information on configuring and using MCP servers:
+Refer to the VS Code or Visual Studio 2026 documentation for more information on configuring and using MCP servers:
 
 - [Use MCP servers in VS Code (Preview)](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
 - [Use MCP servers in Visual Studio (Preview)](https://learn.microsoft.com/visualstudio/ide/mcp-servers)

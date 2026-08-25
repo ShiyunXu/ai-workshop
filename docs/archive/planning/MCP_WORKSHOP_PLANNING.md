@@ -394,7 +394,7 @@ dotnet new mcpserver -n SampleMcpServer
 
 #### VS Code Dependency
 
-- **Consideration**: Main workshop uses Visual Studio, MCP requires VS Code
+- **Consideration**: Main workshop uses Visual Studio 2026, MCP requires VS Code
 - **Solution**: Make MCP section optional, provide clear VS Code setup instructions
 
 #### GitHub Copilot Requirement
