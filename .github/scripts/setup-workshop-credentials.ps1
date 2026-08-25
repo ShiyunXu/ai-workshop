@@ -144,11 +144,15 @@ function Write-WorkshopUserSecrets {
     }
 
     # Projects that read AzureOpenAI:Endpoint / AzureOpenAI:Key directly.
-    # Parts 2, 3 and 8 are console samples; Part 9 uses the StoreApp project.
+    # Parts 2, 3 and 8 are console samples; Part 9 uses the Products/Store projects from eShopLite-start/eShopLite plus the StoreApp project.
     $openAiProjects = @(
         'Part 02 - Build Chat App/ChatApp'
         'Part 03 - Add RAG/RagChatApp'
         'Part 08 - Agent Framework Basics/AgentApp'
+        'Part 09 - Adding AI to an Existing App/eShopLite-start/Products'
+        'Part 09 - Adding AI to an Existing App/eShopLite-start/Store'
+        'Part 09 - Adding AI to an Existing App/eShopLite/Products'
+        'Part 09 - Adding AI to an Existing App/eShopLite/Store'
         'Part 09 - Adding AI to an Existing App/StoreApp'
     )
 
@@ -165,7 +169,7 @@ function Write-WorkshopUserSecrets {
         $ok = (Set-ProjectSecret $project 'AzureOpenAI:Key' $env:WORKSHOP_AZURE_OPENAI_KEY) -and $ok
 
         # Part 9's optional observability assistant can run against a local model.
-        if ($relative -like '*/StoreApp' -and $env:WORKSHOP_LOCAL_MODEL_ENDPOINT -and $env:WORKSHOP_LOCAL_MODEL_NAME) {
+        if (($relative -like '*/StoreApp' -or $relative -like '*/Store') -and $env:WORKSHOP_LOCAL_MODEL_ENDPOINT -and $env:WORKSHOP_LOCAL_MODEL_NAME) {
             $ok = (Set-ProjectSecret $project 'LocalModel:Endpoint' $env:WORKSHOP_LOCAL_MODEL_ENDPOINT) -and $ok
             $ok = (Set-ProjectSecret $project 'LocalModel:Model' $env:WORKSHOP_LOCAL_MODEL_NAME) -and $ok
         }
@@ -260,6 +264,8 @@ if ($mismatched.Count -gt 0) {
     Write-Host '    Part 03 - Add RAG/RagChatApp/Program.cs (and checkpoints/*.cs)' -ForegroundColor DarkGray
     Write-Host '    Part 08 - Agent Framework Basics/AgentApp/Program.cs' -ForegroundColor DarkGray
     Write-Host '    Part 09 - Adding AI to an Existing App/StoreApp/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite-start/Program.cs' -ForegroundColor DarkGray
     Write-Host '    Part 11 - Deployment/GenAiLab/GenAiLab.Web/Program.cs' -ForegroundColor DarkGray
 }
 

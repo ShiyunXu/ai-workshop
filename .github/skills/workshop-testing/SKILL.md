@@ -43,7 +43,7 @@ The samples hardcode the deployment names `gpt-5-mini` and `text-embedding-3-sma
 | 6 - Enhanced MCP Server *(bonus)* | Exploration only — build and run the existing snapshot, review the README's business-integration guidance | `Part 06 - Enhanced MCP Server/ContosoOrdersMcpServer/` |
 | 7 - MCP Publishing *(bonus)* | Documentation review only. **Do not publish anything** | — |
 | 8 - Agent Framework Basics | `dotnet new console` → `AgentApp`, add `Microsoft.Agents.AI` per README. Verify the agent runs and can call the Part 5 weather tool if the README wires that up | `Part 08 - Agent Framework Basics/AgentApp/` |
-| 9 - Adding AI to an Existing App | Run the completed `StoreApp` snapshot. The local-inference module needs `LocalModel:Endpoint` / `LocalModel:Model` (Ollama or Foundry Local) — note it as skipped if unavailable | `Part 09 - Adding AI to an Existing App/StoreApp/` |
+| 9 - Adding AI to an Existing App | Run the completed `StoreApp` snapshot and also verify the `eShopLite-start/` and `eShopLite/` snapshots if the README references them. The local-inference module needs `LocalModel:Endpoint` / `LocalModel:Model` (Ollama or Foundry Local) — note it as skipped if unavailable | `Part 09 - Adding AI to an Existing App/eShopLite-start/`, `Part 09 - Adding AI to an Existing App/eShopLite/`, `Part 09 - Adding AI to an Existing App/StoreApp/` |
 | 10 - Choosing Providers and Services | Documentation only — read for accuracy of provider names, packages, and config keys | — |
 | 11 - Deployment | See below | `Part 11 - Deployment/GenAiLab/` |
 
