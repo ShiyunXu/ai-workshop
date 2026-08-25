@@ -65,11 +65,11 @@ If you prefer Visual Studio 2026 instead of the CLI:
 1. Open Visual Studio 2026 and select Create a new project.
 1. Search for and choose AI Chat Web App.
 
-    ![AI Chat Web App selected in the Visual Studio project template dialog](../images/vs-ai-webchat-template.png)
+    ![AI Chat Web App selected in the Visual Studio 2026 project template dialog](../images/vs-ai-webchat-template.png)
 
 1. Use GenAiLab as the project name.
 
-    ![GenAiLab entered as the project name in Visual Studio](../images/vs-configure-new-project.png)
+    ![GenAiLab entered as the project name in Visual Studio 2026](../images/vs-configure-new-project.png)
 
 1. In Additional information, set:
     - AI service provider: Azure OpenAI

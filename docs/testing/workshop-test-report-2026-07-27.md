@@ -443,7 +443,7 @@ stdio.
 
 Part 4 was reorganized after rehearsal feedback that its configuration steps were unclear and
 came too late. All four configuration changes now sit in one step immediately after
-scaffolding, the connection-string secret is documented for Visual Studio as well as the CLI
+scaffolding, the connection-string secret is documented for Visual Studio 2026 as well as the CLI
 and says plainly which project owns it, and the Docker-free path became a self-contained
 section with its own complete configuration. That last change closes #580: the path that
 attendees fall back to *because Docker wouldn't start* no longer ships a deployment name their

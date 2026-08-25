@@ -96,4 +96,4 @@ For both VS Code and Visual Studio 2026, the configuration file uses the followi
 Refer to the VS Code or Visual Studio 2026 documentation for more information on configuring and using MCP servers:
 
 - [Use MCP servers in VS Code (Preview)](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
-- [Use MCP servers in Visual Studio (Preview)](https://learn.microsoft.com/visualstudio/ide/mcp-servers)
+- [Use MCP servers in Visual Studio 2026 (Preview)](https://learn.microsoft.com/visualstudio/ide/mcp-servers)
