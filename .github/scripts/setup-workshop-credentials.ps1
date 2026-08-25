@@ -264,8 +264,10 @@ if ($mismatched.Count -gt 0) {
     Write-Host '    Part 03 - Add RAG/RagChatApp/Program.cs (and checkpoints/*.cs)' -ForegroundColor DarkGray
     Write-Host '    Part 08 - Agent Framework Basics/AgentApp/Program.cs' -ForegroundColor DarkGray
     Write-Host '    Part 09 - Adding AI to an Existing App/StoreApp/Program.cs' -ForegroundColor DarkGray
-    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite/Program.cs' -ForegroundColor DarkGray
-    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite-start/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite/Products/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite/Store/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite-start/Products/Program.cs' -ForegroundColor DarkGray
+    Write-Host '    Part 09 - Adding AI to an Existing App/eShopLite-start/Store/Program.cs' -ForegroundColor DarkGray
     Write-Host '    Part 11 - Deployment/GenAiLab/GenAiLab.Web/Program.cs' -ForegroundColor DarkGray
 }
 
